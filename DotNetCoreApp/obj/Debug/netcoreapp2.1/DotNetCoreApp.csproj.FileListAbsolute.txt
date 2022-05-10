@@ -1,0 +1,14 @@
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.csprojAssemblyReference.cache
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.csproj.CoreCompileInputs.cache
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.RazorAssemblyInfo.cache
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.RazorAssemblyInfo.cs
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.AssemblyInfoInputs.cache
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.AssemblyInfo.cs
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\bin\Debug\netcoreapp2.1\DotNetCoreApp.deps.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\bin\Debug\netcoreapp2.1\DotNetCoreApp.runtimeconfig.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\bin\Debug\netcoreapp2.1\DotNetCoreApp.runtimeconfig.dev.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\bin\Debug\netcoreapp2.1\DotNetCoreApp.dll
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\bin\Debug\netcoreapp2.1\DotNetCoreApp.pdb
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.RazorTargetAssemblyInfo.cache
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.dll
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.pdb
