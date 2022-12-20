@@ -10,7 +10,6 @@ D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\DotNetCoreA
 D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\DotNetCoreAppTest.runtimeconfig.json
 D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\DotNetCoreAppTest.runtimeconfig.dev.json
 D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\DotNetCoreAppTest.dll
-D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\obj\Debug\netcoreapp2.1\DotNetCoreAppTest.csprojAssemblyReference.cache
 D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\obj\Debug\netcoreapp2.1\DotNetCoreAppTest.csproj.CoreCompileInputs.cache
 D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\obj\Debug\netcoreapp2.1\DotNetCoreAppTest.AssemblyInfoInputs.cache
 D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\obj\Debug\netcoreapp2.1\DotNetCoreAppTest.AssemblyInfo.cs
@@ -20,3 +19,12 @@ D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\DotNetCoreA
 D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\obj\Debug\netcoreapp2.1\DotNetCoreAppTest.csproj.CopyComplete
 D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\obj\Debug\netcoreapp2.1\DotNetCoreAppTest.dll
 D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\obj\Debug\netcoreapp2.1\DotNetCoreAppTest.pdb
+D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\CoverletSourceRootsMapping
+D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\DotNetCoreApp.deps.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\DotNetCoreApp.runtimeconfig.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\DotNetCoreApp.runtimeconfig.dev.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\bin\Debug\netcoreapp2.1\appsettings.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\obj\Debug\netcoreapp2.1\DotNetCoreAppTest.csproj.AssemblyReference.cache
+D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\obj\Debug\netcoreapp2.1\DotNetCoreAppTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\obj\Debug\netcoreapp2.1\DotNetCoreAppTest.genruntimeconfig.cache

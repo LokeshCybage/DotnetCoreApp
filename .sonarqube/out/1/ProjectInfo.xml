@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>DotNetCoreAppTest</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>b46d2787-a73f-4d64-a88f-df3e453e17b1</ProjectGuid>
+  <FullPath>D:\SonarQube\DotNetCoreApp\DotNetCoreAppTest\DotNetCoreAppTest.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="D:\SonarQube\DotNetCoreApp\.sonarqube\conf\1\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">D:\SonarQube\DotNetCoreApp\.sonarqube\out\1\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">D:\SonarQube\DotNetCoreApp\.sonarqube\out\1</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>netcoreapp2.1</TargetFramework>
+</ProjectInfo>

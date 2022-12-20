@@ -1,4 +1,3 @@
-D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.csprojAssemblyReference.cache
 D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.csproj.CoreCompileInputs.cache
 D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.RazorAssemblyInfo.cache
 D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.RazorAssemblyInfo.cs
@@ -12,3 +11,8 @@ D:\SonarQube\DotNetCoreApp\DotNetCoreApp\bin\Debug\netcoreapp2.1\DotNetCoreApp.p
 D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.RazorTargetAssemblyInfo.cache
 D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.dll
 D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.pdb
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\bin\Debug\netcoreapp2.1\appsettings.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.csproj.AssemblyReference.cache
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+﻿D:\SonarQube\DotNetCoreApp\DotNetCoreApp\BusinessLogic\MathClass.cs
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\Controllers\ValuesController.cs
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\Program.cs
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\Startup.cs
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\.NETCoreApp,Version=v2.1.AssemblyAttributes.cs
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.AssemblyInfo.cs
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\obj\Debug\netcoreapp2.1\DotNetCoreApp.RazorAssemblyInfo.cs
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\appsettings.Development.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\appsettings.json
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\DotNetCoreApp.csproj.vspscc
+D:\SonarQube\DotNetCoreApp\DotNetCoreApp\Properties\launchSettings.json

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "80dee57efb964df1f1bec83d8db33a861473eec0"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -12,6 +12,7 @@
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "Moq": "4.16.1",
           "NUnit3TestAdapter": "3.17.0",
+          "coverlet.msbuild": "3.2.0",
           "NUnit": "3.13.1"
         },
         "runtime": {
@@ -37,6 +38,7 @@
           }
         }
       },
+      "coverlet.msbuild/3.2.0": {},
       "Microsoft.CodeCoverage/16.9.4": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -362,16 +364,6 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Runtime.Handles": "4.3.0",
           "System.Runtime.InteropServices": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "Moq/4.16.1": {
@@ -545,20 +537,6 @@
           "System.Threading.Thread": "4.3.0",
           "System.Threading.ThreadPool": "4.3.0",
           "runtime.native.System": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/linux/lib/_._": {
-            "rid": "linux",
-            "assetType": "runtime"
-          },
-          "runtime/osx/lib/_._": {
-            "rid": "osx",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Diagnostics.Tools/4.0.1": {
@@ -576,16 +554,6 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "runtime.native.System": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Dynamic.Runtime/4.3.0": {
@@ -618,16 +586,6 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Runtime.InteropServices": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.IO/4.3.0": {
@@ -775,16 +733,6 @@
           "System.Runtime.InteropServices": "4.3.0",
           "System.Threading": "4.3.0",
           "runtime.native.System": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Runtime.Serialization.Primitives/4.1.1": {
@@ -934,6 +882,13 @@
       "path": "castle.core/4.4.0",
       "hashPath": "castle.core.4.4.0.nupkg.sha512"
     },
+    "coverlet.msbuild/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lu/eJJpqJb4qy3BGPtDD/LI5RSOwXYYyRErTyaG0OTP69llzVK3FEe74hBQx0JtLUTLEVBfERV4uGYcE1Br2sg==",
+      "path": "coverlet.msbuild/3.2.0",
+      "hashPath": "coverlet.msbuild.3.2.0.nupkg.sha512"
+    },
     "Microsoft.CodeCoverage/16.9.4": {
       "type": "package",
       "serviceable": true,
@@ -1056,7 +1011,7 @@
     "System.Collections.Specialized/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "sha512": "sha512-NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
       "path": "system.collections.specialized/4.3.0",
       "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
     },
