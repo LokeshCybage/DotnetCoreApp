@@ -13,13 +13,20 @@ parameters:
   - HostMachine-Pool
   - null
 
+- name: agentMachine
+  type: string
+  default: LOKESHA-D
+  values:
+  - LOKESHA-D
+  - LOKESHA-C
+
 jobs:  
   - job: 
     ${{ if ne(parameters.agentPoolName, 'null')}}:
       pool:
         name: ${{ parameters.agentPoolName }}
         demands:
-        - agent.name -equals LOKESHA-D
+        - agent.name -equals ${{ parameters.agentMachine }}
     ${{ if eq(parameters.agentPoolName, 'null')}}:
       pool:
         vmImage: ${{ parameters.vmImageName }}
