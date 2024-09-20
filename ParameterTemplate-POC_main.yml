@@ -1,17 +1,20 @@
 parameters:
 - name: vmImageName
   type: string
-  default: 'ubuntu-latest'
+  default: 'windows-latest'
 
 - name: agentPoolName
   type: string
-  default: null
+  default: 'null'
 
 jobs:  
-  - job: Docker
+  - job: 
     ${{ if ne(parameters.agentPoolName, 'null')}}:
       pool:
         name: ${{ parameters.agentPoolName }}
     ${{ if eq(parameters.agentPoolName, 'null')}}:
       pool:
         vmImage: ${{ parameters.vmImageName }}
+    steps:
+    - script: dotnet build --configuration $(buildConfiguration)
+      displayName: 'dotnet build $(buildConfiguration)' 
