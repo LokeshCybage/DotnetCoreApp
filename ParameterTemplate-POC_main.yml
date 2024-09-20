@@ -1,3 +1,6 @@
+trigger:
+  - none
+
 parameters:
 - name: vmImageName
   type: string
@@ -6,12 +9,17 @@ parameters:
 - name: agentPoolName
   type: string
   default: 'null'
+  values:
+  - HostMachine-Pool
+  - null
 
 jobs:  
   - job: 
     ${{ if ne(parameters.agentPoolName, 'null')}}:
       pool:
         name: ${{ parameters.agentPoolName }}
+        demands:
+        - agent.name -equals LOKESHA-D
     ${{ if eq(parameters.agentPoolName, 'null')}}:
       pool:
         vmImage: ${{ parameters.vmImageName }}
