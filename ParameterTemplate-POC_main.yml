@@ -1,0 +1,17 @@
+parameters:
+- name: vmImageName
+  type: string
+  default: 'ubuntu-latest'
+
+- name: agentPoolName
+  type: string
+  default: null
+
+jobs:  
+  - job: Docker
+    ${{ if ne(parameters.agentPoolName, 'null')}}:
+      pool:
+        name: ${{ parameters.agentPoolName }}
+    ${{ if eq(parameters.agentPoolName, 'null')}}:
+      pool:
+        vmImage: ${{ parameters.vmImageName }}
