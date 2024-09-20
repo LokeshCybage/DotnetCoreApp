@@ -3,10 +3,12 @@ trigger:
 
 parameters:
 - name: vmImageName
+  displayName: Select only for MS-Hosted
   type: string
   default: 'windows-latest'
 
 - name: agentPoolName
+  displayName: Select only for Self-Hosted
   type: string
   default: 'null'
   values:
@@ -14,6 +16,7 @@ parameters:
   - null
 
 - name: agentMachine
+  displayName: Select Agent Machine for Self-hosted
   type: string
   default: LOKESHA-D
   values:
