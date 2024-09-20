@@ -1,24 +1,22 @@
-# ASP.NET Core
-# Build and test ASP.NET Core projects targeting .NET Core.
-# Add steps that run tests, create a NuGet package, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
-
 parameters:
-  - name: pool
-    type: string
-    displayName: 'Pool Agent'
-    default: HostMachine-Pool
+- name: myString
+  type: string
+  default: 'default value!'
+- name: mynum
+  displayName: 'My Number Param'
+  type: number
+  default: 123
+- name: mypool
+  displayName: 'Pool'
+  type: pool
+  values:
+  - ubuntu-latest
+  - windows-latest
+  - macos-latest
 
-trigger:
-# - master
-  - none
-
-pool:
-  name: ${{ parameters.pool }}
-
-variables:
-  buildConfiguration: 'Release'
+pool: ${{ parameters.mypool }}
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
+- script: echo ${{ parameters.myString }} was entered at runtime!
+- ${{ if not(eq(parameters.mynum, 123)) }}:
+  - script: echo You overrode the default number to ${{ parameters.mynum }}
