@@ -3,16 +3,18 @@
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
-# parameters:
-#   - name: 
+parameters:
+  - name: pool
+    type: string
+    displayName: 'Pool Agent'
+    default: HostMachine-Pool
 
 trigger:
 # - master
   - none
 
 pool:
-  # name: HostMachine-Pool
-  vmImage: windows-latest
+  name: ${parameters.pool}
 
 variables:
   buildConfiguration: 'Release'
