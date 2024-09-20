@@ -14,7 +14,7 @@ trigger:
   - none
 
 pool:
-  name: ${parameters.pool}
+  name: ${{ parameters.pool }}
 
 variables:
   buildConfiguration: 'Release'
