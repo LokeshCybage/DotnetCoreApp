@@ -1,6 +1,9 @@
 trigger:
   - none
 
+variables:
+  buildConfiguration: Release
+
 parameters:
 - name: vmImageName
   displayName: Select only for MS-Hosted
