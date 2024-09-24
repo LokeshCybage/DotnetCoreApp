@@ -9,9 +9,6 @@ trigger:
 pool:
   vmImage: windows-latest
 
-variables:
-  buildConfiguration: 'Release'
-
 parameters:
   - name: BASE_URL
     displayName: Application URL
@@ -20,8 +17,10 @@ parameters:
     values:
       - "https://loantapes-brave-dev-staging.azurewebsites.net/brave/"
 steps:
-- script: set BASE_URL = ${{ parameters.BASE_URL }}
-          echo {{ parameters.BASE_URL }}
+- script: |
+    echo "Parameter value for BASE_URL: ${{ parameters.BASE_URL }}"
+    set BASE_URL=${{ parameters.BASE_URL }}
+    echo "Environment variable BASE_URL is set to: %BASE_URL%"
   # env: 
   #   BASE_URL: $(BASE_URL)
-  displayName: 'dotnet build $(buildConfiguration)'
+  displayName: 'Test for parameter'
