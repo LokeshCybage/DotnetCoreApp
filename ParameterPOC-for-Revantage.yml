@@ -7,7 +7,7 @@ trigger:
 - none
 
 pool:
-  vmImage: windows-latest
+  vmImage: ubuntu-latest
 
 parameters:
   - name: BASE_URL
