@@ -13,9 +13,9 @@ parameters:
   - name: BASE_URL
     displayName: Application URL
     type: string
-    default: "https://loantapes-brave-dev-staging.azurewebsites.net/brave/"
+    default: "https://google.com"
     values:
-      - "https://loantapes-brave-dev-staging.azurewebsites.net/brave/"
+      - "https://google.com"
 steps:
 - script: |
     echo "Env BASE_URL: %BASE_URL%"
