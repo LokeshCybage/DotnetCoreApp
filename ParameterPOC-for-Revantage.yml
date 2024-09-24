@@ -22,5 +22,5 @@ steps:
     set BASE_URL=${{ parameters.BASE_URL }}
     echo "local BASE_URL: %BASE_URL%"
   env:
-    BASE_URL2: ${{ parameters.BASE_URL }}
+    BASE_URL: ${{ parameters.BASE_URL }}
   displayName: 'Set BASE_URL as environment variable'
