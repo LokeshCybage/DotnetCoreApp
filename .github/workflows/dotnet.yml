@@ -21,7 +21,7 @@ jobs:
         - name: Setup .NET Core
           uses: actions/setup-dotnet@v3
           with:
-              dotnet-version: 2.1.x # ${{ matrix.dotnet-version }}
+              dotnet-version: 2.1 # ${{ matrix.dotnet-version }}
         
         - name: Install/Restore Dependencies
           run: dotnet restore
