@@ -30,7 +30,7 @@ jobs:
           run: dotnet build --no-restore
 
         - name: Test with dotnet CLI
-          run: dotnet te
+          run: dotnet test --no-build
 
 # on:
 #   push:
