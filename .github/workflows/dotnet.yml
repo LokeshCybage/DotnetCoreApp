@@ -2,6 +2,8 @@ name: .NET Core CI
 
 on:
     workflow_dispatch:
+      
+# on: [push, pull_request, workflow_dispatch]
 #     push:
 #     branches:
 #       - master
@@ -31,6 +33,16 @@ jobs:
 
         - name: Test with dotnet CLI
           run: dotnet test --no-build
+
+        - name: Publish artifact
+          run: dotnet publish --output ./artifacts
+
+        - name: Upload Artifact
+          uses: actions/upload-artifact@v3
+          with:
+            name: drop-artifact
+            path: ./artifacts
+          
 
 # on:
 #   push:
