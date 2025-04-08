@@ -40,7 +40,7 @@ jobs:
         - name: Upload Artifact
           uses: actions/upload-artifact@v3
           with:
-            name: drop-artifact
+            name: drop-artifact-${{ matrix.os }} # if job runs on two different runners, the artifacts will be named differently or name conflict will occur 
             path: ./artifacts
           
 
