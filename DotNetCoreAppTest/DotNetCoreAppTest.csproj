@@ -1,9 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+    <!-- Add this to disable fallback folder usage -->
+    <RestoreFallbackFolders></RestoreFallbackFolders>
   </PropertyGroup>
 
   <ItemGroup>

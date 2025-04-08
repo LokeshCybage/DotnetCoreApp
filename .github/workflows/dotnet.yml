@@ -3,27 +3,26 @@ name: .NET Core CI
 on:
     workflow_dispatch:
 #     push:
-#         branches:
-#             - master
+#     branches:
+#       - master
 
 jobs:
     build:
         runs-on: ${{ matrix.os}}
         strategy:
-            fail-fast: false 
+            fail-fast: false
             matrix:
-                os: [ubuntu-20.04, windows-latest]
-                # dotnet-version: [2.1.x, 7.0.x]
+                os: [ubuntu-latest, windows-latest]
 
         steps:
-        - name: checkout code
+        - name: Checkout code
           uses: actions/checkout@v3
 
-        - name: Setup .NET Core
+        - name: Setup .NET
           uses: actions/setup-dotnet@v3
           with:
-              dotnet-version: 2.1 # ${{ matrix.dotnet-version }}
-        
+              dotnet-version: 8.0.x #${{ matrix.dotnet-version }}
+
         - name: Install/Restore Dependencies
           run: dotnet restore
 
@@ -31,8 +30,7 @@ jobs:
           run: dotnet build --no-restore
 
         - name: Test with dotnet CLI
-          run: dotnet test --no-build
-        
+          run: dotnet te
 
 # on:
 #   push:
