@@ -1,4 +1,4 @@
-name: .NET Core CI
+name: .NET Core App (Application not working)
 
 on:
     workflow_dispatch:
